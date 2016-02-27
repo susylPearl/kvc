@@ -1,0 +1,60 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/googleDrawer"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+<ImageView
+    android:id="@+id/header_image"
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:scaleType="fitXY"
+    android:src="@drawable/top"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:background="@android:color/white" />
+
+    <RelativeLayout
+        android:id="@+id/rel_lay"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom">
+
+        <!--<TextView-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="Setting"-->
+            <!--android:layout_marginLeft="94dp"-->
+            <!--android:layout_marginStart="94dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:id="@+id/textView7" />-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:backgroundTint="#000"-->
+            <!--android:id="@+id/imageButton"-->
+            <!--android:background="@drawable/set"-->
+            <!--android:layout_marginLeft="76dp"-->
+            <!--android:layout_marginStart="76dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_toRightOf="@+id/textView7"-->
+            <!--android:layout_toEndOf="@+id/textView7" />-->
+
+
+    </RelativeLayout>
+
+</LinearLayout>

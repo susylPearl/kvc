@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Academics.AcademicsFragment">
+
+
+
+        <ScrollView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:saveEnabled="true"
+            android:background="#ffffff"
+            android:padding="0dp">
+
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/content"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </ScrollView>
+
+
+</FrameLayout>

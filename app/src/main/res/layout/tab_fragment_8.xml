@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tab 6"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/date"
+        android:padding="10dp"
+        android:layout_below="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/attach"
+        android:padding="10dp"
+        android:layout_below="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"/>
+
+    <WebView
+        android:id="@+id/webView1"
+        android:padding="5dp"
+        android:layout_below="@+id/attach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="body"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+
+
+
+</LinearLayout>
+</ScrollView>
